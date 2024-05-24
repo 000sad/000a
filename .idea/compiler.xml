@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gl-member" />
+        <module name="gl-product" />
+        <module name="gl-ware" />
+        <module name="gl-order" />
+        <module name="gl-coupon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="000a" target="1.8" />
+      <module name="gl-coupon" target="1.8" />
+      <module name="gl-member" target="1.8" />
+      <module name="gl-order" target="1.8" />
+      <module name="gl-product" target="1.8" />
+      <module name="gl-ware" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gl-coupon" options="-parameters" />
+      <module name="gl-member" options="-parameters" />
+      <module name="gl-order" options="-parameters" />
+      <module name="gl-product" options="-parameters" />
+      <module name="gl-ware" options="-parameters" />
+    </option>
+  </component>
+</project>
